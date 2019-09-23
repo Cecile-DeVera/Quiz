@@ -1,7 +1,9 @@
 $("#recommendationQuiz").submit(function(event) {
 
   event.preventDefault();
+
   var answers = $(this).serializeArray();
+
   var scores = {
     python: 0,
     javascript: 0,
@@ -12,11 +14,7 @@ $("#recommendationQuiz").submit(function(event) {
     scores[answer.value] += 1;
   }
 
-  console.log(scores);
-  // //console.log(scores)
-  // for(var language in scores){
-  // //   console.log(language);
-  // }
+
 
   var maxLanguage ="python"
   for(var language in scores){
