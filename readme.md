@@ -19,7 +19,7 @@ _Another independent project by yours truly. A recommendation quiz of which lang
 
 ## Known Bugs
 
-_Results are not showing up. Console is supposed to log each answer and add them up in a points system. The most points wins and that certain language should show up._
+_If user does not put in any answers, code will automatically set to first language. Need to put in an alert to make sure user answers all questions._
 
 ## Support and contact details
 

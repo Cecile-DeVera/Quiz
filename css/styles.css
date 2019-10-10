@@ -1,3 +1,26 @@
-.result{
-  display: none
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+.result {
+  display: none;
+  text-align: center;
+  font-family: Georgia, serif;
+  position: inherit;
+}
+
+.jumbotron {
+  font-family: 'Abril Fatface', cursive;
+  background-color: grey;
+  color: white;
+}
+
+#recommendationQuiz {
+  text-align: center;
+}
+
+h3 {
+  font-family: Georgia, serif;
+}
+
+body {
+  background-color: teal;
 }
